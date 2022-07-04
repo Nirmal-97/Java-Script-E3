@@ -1,18 +1,18 @@
-var myString = "xyz";
+function permut(string) {
+    if (string.length < 2) return string; // This is our break condition
 
-function printPermut(inputString){
-    var outputString;
-    if(inputString.length === 0){
-        return inputString;
+    var permutations = []; // This array will hold our permutations
+    for (var i = 0; i < string.length; i++) {
+        var char = string[i];
+
+        // Cause we don't want any duplicates:
+        if (string.indexOf(char) != i) // if char was used already
+            continue; // skip it this time
+
+        var remainingString = string.slice(0, i) + string.slice(i + 1, string.length); //Note: you can concat Strings via '+' in JS
+
+        for (var subPermutation of permut(remainingString))
+            permutations.push(char + subPermutation)
     }
-    if(inputString.length === 1){
-        return inputString;
-    }
-    else{
-       for(int i = 0; i<inputString.length(); i++){
-           //something here like: 
-           //outputString = outputString.concat(printPermut(inputString.slice(1))??
-           //maybe store each unique permutation to an array or something?
-       } 
-    }
+    return permutations;
 }
