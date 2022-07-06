@@ -22,3 +22,9 @@ var permutation = getPermutations('YES').filter((el, idx, self) => (self.indexOf
 console.log("Total permutation: " + permutation.length);
 console.log(permutation);
 
+
+// PERMUTATION of a String 
+
+// A Permutation of a string is another string that contains same characters, only the order of characters can be different.For example, “abcd” and “dabc” are Permutation of each other.
+
+
