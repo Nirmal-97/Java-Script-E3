@@ -226,29 +226,29 @@
 // }
 //     console.count(c);
 
-const obj = [
-    {
-        name: "test1",
-        dep: "BE",
-        score: 10
-    },
-    {
-        name: "test1",
-        dep: "BE",
-        score: 20
-    },
-    {
-        name: "test1",
-        dep: "Arts",
-        score: 30
-    },
-    {
-        name: "test1",
-        dep: "Arts",
-        score: 40
-    },
+// const obj = [
+//     {
+//         name: "test1",
+//         dep: "BE",
+//         score: 10
+//     },
+//     {
+//         name: "test1",
+//         dep: "BE",
+//         score: 20
+//     },
+//     {
+//         name: "test1",
+//         dep: "Arts",
+//         score: 30
+//     },
+//     {
+//         name: "test1",
+//         dep: "Arts",
+//         score: 40
+//     },
 
-]
+// ]
 // let b = 0;
 // let c = 0;
 // obj.forEach(element => {
