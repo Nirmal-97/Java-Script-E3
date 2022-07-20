@@ -307,7 +307,74 @@
 // let a = [1, 2, 3, 4.4];
 
 // a.Map(function (element) {
-//     console.log(element);   
+//     console.log(element);
 //     return (element);
 // });
 
+
+// function sum(b) {
+//     let pass = b * b;
+//     return pass;
+// }
+// console.log(sum(4));
+
+// let a = 7;
+// function getName() {
+//     console.log("Nirmal");
+// }
+// getName();
+// console.log(a);
+
+// let a = [1000030004000500];
+// let b = a.toString().split("");
+// let c = 0;
+// for (let i = 0; i < b.length; i++){
+//     b[i] == 0;
+//     c = c + 1;
+// }
+// console.log(c);
+
+// const obj = [
+//     {
+//         name: "test1",
+//         dep: "BE",
+//         score: 10
+//     },
+//     {
+//         name: "test1",
+//         dep: "BE",
+//         score: 20
+//     },
+//     {
+//         name: "test1",
+//         dep: "Arts",
+//         score: 30
+//     },
+//     {
+//         name: "test1",
+//         dep: "Arts",
+//         score: 40
+//     },
+
+// ];
+// let a = 0;
+// let b = 0;
+// obj.forEach(element => {
+//     if (element.dep == "BE") {
+//         a = a + element.score;
+//     }
+//     else {
+//         b = b + element.score;
+//     }
+// });
+// console.log(`{Score of BE: ${a}}`);
+// console.log(`{Score of arts:${b}}`);
+
+// let a = [1000];
+// let b = a.toString().split("");
+// let c = 0;
+// for (let i = 0; i < b.length; i++){
+//     b[i] == '0';
+//     c = c + 1;
+// }
+// console.log(c);
