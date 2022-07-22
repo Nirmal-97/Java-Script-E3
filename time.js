@@ -378,3 +378,40 @@
 //     c = c + 1;
 // }
 // console.log(c);
+// let a = [2, 3, 4];
+// let b = [6, 7, 8, 9];
+// let c = [...a, ...b];
+// console.log(c);
+
+// let a = "nirmal";
+// console.log([...a]);
+
+// let a = 0;
+// while (a++ < 5) {
+//     console.log(a);
+// }
+
+// let a = ["apple", "carrot", "beetroot", "mango"];
+// console.log(a.sort());
+
+// const numbers = [1, 2, 3, 4, 5, 6];
+
+// function sum_reducer(accumulator, currentValue) {
+//     return accumulator + currentValue;
+// }
+
+// let sum = numbers.reduce(sum_reducer);
+// console.log(sum);
+
+// let myObj = {
+//     name: "nirmal",
+    
+// }
+
+// console.log(myObj.__proto__);
+
+// let a = ["b", null, "a", null, "c",null];
+// let b = a.sort();
+// let c = [...b.slice(0,3).reverse(),...a.slice(3)]
+// console.log(c);
+
